@@ -4,10 +4,8 @@ Inputs:
      X       :   pxn matrix containing the first set of training feature vectors
                  p:  dimensionality of the first feature set
                  n:  number of training samples
-
-    Y       :   qxn matrix containing the second set of training feature vectors
+     Y       :   qxn matrix containing the second set of training feature vectors
                  q:  dimensionality of the second feature set
-
      label   :   1xn row vector of length n containing the class labels              
  Outputs:
   Ax  :   Transformation matrix for the first data set (rxp)
